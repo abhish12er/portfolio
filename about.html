@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About | Prakruthi</title>
+
+  <!-- Fonts + Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #fbe9f4, #f1e4e8);
+      color: #333;
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      background: rgba(255,255,255,0.85);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-size: 26px;
+      font-weight: bold;
+      color: #d63384;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    .nav-links a:hover {
+      color: #d63384;
+    }
+
+    .section {
+      padding: 150px 40px 80px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 1100px;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.3);
+      border-radius: 20px;
+      backdrop-filter: blur(18px);
+      padding: 50px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .about-image img {
+      width: 100%;
+      max-width: 400px;
+      height: 320px;
+      object-fit: cover;
+      border-radius: 20px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    }
+
+    .about-content h2 {
+      font-size: 2.5rem;
+      color: #d63384;
+      margin-bottom: 15px;
+    }
+
+    .about-content p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin-bottom: 18px;
+      color: #444;
+    }
+
+    .divider {
+      height: 2px;
+      background: #eee;
+      margin: 50px auto;
+      max-width: 800px;
+      border-radius: 10px;
+    }
+
+    .experience h3 {
+      font-size: 2rem;
+      color: #d63384;
+      margin-bottom: 20px;
+    }
+
+    .experience ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .experience li {
+      margin-bottom: 15px;
+      font-size: 1.05rem;
+    }
+
+    .experience li i {
+      color: #d63384;
+      margin-right: 10px;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 30px;
+      background: #222;
+      color: #ddd;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 900px) {
+      .about-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .about-image img {
+        margin: 0 auto;
+        height: auto;
+      }
+
+      .about-content h2 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" data-aos="fade-down">
+    <h1 class="logo">Fashionista</h1>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container" data-aos="fade-up">
+      <div class="about-grid">
+        <div class="about-image">
+          <img src="images/WhatsApp Image 2025-06-18 at 11.46.46.jpeg" alt="Prakruthi">
+        </div>
+        <div class="about-content">
+          <h2>I'm Prakruthi</h2>
+          <p>A dedicated fashion design student at <strong>T. John College</strong>, graduating in <strong>2025</strong>, I create pieces that blend elegance with individuality.</p>
+          <p>I specialize in conceptualizing bold silhouettes, sustainable styling, and aesthetic-rich visual fashion storytelling. My work speaks not just of fashion, but of cultural relevance and creativity.</p>
+          <p>I believe in details, drapes, and delivering styles that turn heads but also speak hearts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="section" id="experience">
+    <div class="container experience" data-aos="fade-up">
+      <h3>Work Experience</h3>
+      <ul>
+        <li><i class="bi bi-person-workspace"></i> <strong>Fashion Stylist Intern</strong> — Dazzeles Studio, 2025</li>
+        <li><i class="bi bi-palette2"></i> <strong>Creative Designer</strong> — Young Trendy, 2023–2024</li>
+      </ul>
+      <p style="margin-top: 20px;">During these roles, I styled photoshoots, researched seasonal color palettes, coordinated model fittings, and collaborated with senior designers to curate unique, trend-forward looks.</p>
+      <p>I thrive in fast-paced environments, enjoy working cross-functionally, and aim to bring purpose and precision to every garment I craft.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" data-aos="fade-up">
+    <p>© 2025 Prakruthi | Designed with vision, stitched with soul.</p>
+  </footer>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+
+</body>
+</html>
